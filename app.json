@@ -1,16 +1,6 @@
 {
     "name": "Multi Upload Telegram Bot",
     "description": "A Powerful Base For Telethon Bots",
-    "logo": "",
-    "keywords": [
-        "telegram",
-        "telethon",
-        "telegram-bot",
-		"TelethonBase",
-		"Lucifeermorningstar",
-		"DaisyX",
-        "Devil"
-    ],
     "env": {
         "API_HASH": {
             "description": "Api Hash",
@@ -29,7 +19,7 @@
             "value": ""
         },
         "OWNRID": {
-            "description": "Yr TG ID here bitch",
+            "description": "Your TG ID here",
             "value": "1252058587"
         },
         "LOG_CHANNEL": {

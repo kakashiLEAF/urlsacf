@@ -67,7 +67,7 @@ Server: TmpNinja
 **~ File size:** __{humanbytes(amjana.file.size)}__'''
 	await msg.edit(hmm, buttons=(
 		[Button.url('📦 Download', r.json().replace("[", "").replace("]", "")["files"]["url"])],
-		[Button.url('Support Chat 💭', 't.me/harp_chat')]
+		[Button.url('Support Chat 💭', 't.me/LEGEND_BOT_update')]
 		))
 
 	os.remove(result.name)

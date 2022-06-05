@@ -50,6 +50,6 @@ async def _(event):
 		await event.answer("💬 Thanks for Supporting.", alert=True)
 		await event.delete()
 		await anjana.send_file(event.chat_id, random.choice(s), reply_to=event)
-		await event.reply(f"Hey [{xx.first_name}]({xx.id}), I am **MultiUploader** bot by **KAKASHI** leaf", buttons=[
+		await event.reply(f"Hey [{xx.first_name}]({xx.id}), I am **LegendUploader** 𝕓𝕪 KAKASHI", buttons=[
 				Button.url('Support Chat 💭', 't.me/LEGEND_BOT_update')
 			])

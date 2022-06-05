@@ -72,7 +72,7 @@ Server: MixDrop
 NOTE: Files will be deleted after 60 days of inactivity.'''
 	await msg.edit(hmm, buttons=(
 		[Button.url('📦 Download', "https://mixdrop.co/f/"+r.json()['result']['fileref'])],
-		[Button.url('Support Chat 💭', 't.me/harp_chat')]
+		[Button.url('Support Chat 💭', 't.me/LEGEND_BOT_update')]
 		))
 
 	os.remove(result.name)

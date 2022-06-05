@@ -68,7 +68,7 @@ Server: TransferSH
 NOTE: Files will be deleted after 14 days.'''
 	await msg.edit(hmm, buttons=(
 		[Button.url('📦 Download', r.text)],
-		[Button.url('Support Chat 💭', 't.me/harp_chat')]
+		[Button.url('Support Chat 💭', 't.me/LEGEND_BOT_update')]
 		))
 
 	os.remove(result.name)

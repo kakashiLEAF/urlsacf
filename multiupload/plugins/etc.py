@@ -37,7 +37,7 @@ async def start(event):
 	else:
 		await anjana.send_file(event.chat_id, random.choice(s), reply_to=event)
 		await event.reply(f"Hey [{xx.first_name}]({xx.id}), I am **MultiUploader**", buttons=[
-				Button.url('Support Chat 💭', 't.me/harp_chat')
+				Button.url('Support Chat 💭', 't.me/LEGEND_BOT_update')
 			])
 
 

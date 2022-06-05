@@ -72,7 +72,7 @@ Server: FileIO
 NOTE: Once the download is complete, The file will be deleted from our servers.'''
 	await msg.edit(hmm, buttons=(
 		[Button.url('📦 Download', r.json()['link'])],
-		[Button.url('Support Chat 💭', 't.me/harp_chat')]
+		[Button.url('Support Chat 💭', 't.me/LEGEND_BOT_update')]
 		))
 
 	os.remove(result.name)
